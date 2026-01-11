@@ -177,7 +177,7 @@ export default function ApplicationDetails() {
                                     value={formData.status}
                                     onChange={(e) => setFormData({ ...formData, status: e.target.value })}
                                 >
-                                    {['Applied', 'Interview', 'Offer', 'Rejected'].map(s => (
+                                    {['Applied', 'Interviewing', 'Offer', 'Rejected'].map(s => (
                                         <option key={s} value={s}>{s}</option>
                                     ))}
                                 </select>

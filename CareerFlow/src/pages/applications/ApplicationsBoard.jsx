@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom'
 import { supabase } from '@/lib/supabase'
 import { Plus, MoreHorizontal } from 'lucide-react'
 
-const statuses = ['Applied', 'Interview', 'Offer', 'Rejected']
+const statuses = ['Applied', 'Interviewing', 'Offer', 'Rejected']
 
 const statusColors = {
     'Applied': 'bg-blue-100 text-blue-800 border-blue-200',
-    'Interview': 'bg-amber-100 text-amber-800 border-amber-200',
+    'Interviewing': 'bg-amber-100 text-amber-800 border-amber-200',
     'Offer': 'bg-green-100 text-green-800 border-green-200',
     'Rejected': 'bg-red-100 text-red-800 border-red-200',
 }

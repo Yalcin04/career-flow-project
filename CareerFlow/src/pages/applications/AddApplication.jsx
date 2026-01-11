@@ -105,7 +105,7 @@ export default function AddApplication() {
                                 className="mt-1 block w-full rounded-md border-slate-300 shadow-sm focus:border-primary-500 focus:ring-primary-500 border px-3 py-2"
                             >
                                 <option value="Applied">Applied</option>
-                                <option value="Interview">Interview</option>
+                                <option value="Interviewing">Interviewing</option>
                                 <option value="Offer">Offer</option>
                                 <option value="Rejected">Rejected</option>
                             </select>
